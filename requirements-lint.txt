@@ -1,0 +1,6 @@
+-e .[all]
+-r requirements-docs-tests.txt
+mypy ==1.15.0
+# types
+types-ujson ==5.10.0.20240515
+types-orjson ==3.6.2
